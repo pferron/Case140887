@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://artifactory.cloud.capitalone.com/artifactory/api/pypi/pypi-internalfacing/simple"
+verify_ssl = true
+
+[dev-packages]
+behave = "*"
+pytest = "*"
+pytest-cov = "*"
+arrow = "*"
+avro = "*"
+
+[packages]
+c1-onestream-transform = "==2.2.6"
+boto3 ="*"
+aws-lambda-powertools = "*"
+
+[requires]
+python_version = "3.9"
